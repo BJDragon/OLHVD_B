@@ -5,4 +5,4 @@ from scipy.io import savemat
 npy_array = np.load('result.npy')
 
 # 保存为.mat文件
-savemat('OLHVD200.mat', {'array_name': npy_array})
+savemat('OLHVD200.mat', {'size_of_SRR': npy_array})
